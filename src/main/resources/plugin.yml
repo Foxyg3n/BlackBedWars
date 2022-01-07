@@ -1,0 +1,30 @@
+main: com.blackmc.blackbedwars.BlackBedWars
+name: BlackBedWars
+softdepend: [  ]
+depend: [ Multiverse-Core, PlaceholderAPI, QuickBoard, Citizens, Skript ]
+version: 1.0
+api-version: 1.16
+
+commands:
+  resetworld:
+    description: Resetuje świat
+  game:
+    description: Zarządza grami BedWars
+  itemspawner:
+    description: Zarządza itemspawnerami
+  join:
+    description: Dołącza do teamu
+  leave:
+    aliases: [opusc]
+    description: Opuszcza rozgrywkę
+  dolacz:
+    description: Dolacza ponownie do rozgrywki
+  party:
+    aliases: [p]
+    description: Komenda do party
+  test:
+    description: Debug command
+  test2:
+    description: Debug command
+  test3:
+    description: Debug command
